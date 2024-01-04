@@ -1,0 +1,15 @@
+cat > file1.txt
+cretaed file with cat command
+
+cat > file1.txt
+
+cat > file2.txt
+another file intended to add it later
+
+cat >> file2.txt
+added new line using "cat >> "
+
+cat > file12.txt
+
+cat file1.txt file2.txt > file12.txt
+

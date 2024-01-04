@@ -1,0 +1,3 @@
+created file with cat command
+another file using cat command inteneded t edit te content
+added new line using "cat >> " command
