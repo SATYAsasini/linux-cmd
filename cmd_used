@@ -12,4 +12,47 @@ added new line using "cat >> "
 cat > file12.txt
 
 cat file1.txt file2.txt > file12.txt
+-----------
+5th january
+------------
+sudo su 
+used to become root user
+
+tried to install yum but later found that it is for red hat baed linux os and not copatible for ubuntu
+
+grep root /etc/passwd
+
+cat >>file3
+[give input]
+
+sort file3
+[sorted output]
+
+hostname
+
+hostname -i
+
+ls -s file3 softFile3
+
+ls file3 hardFile3
+
+cat >>file3
+adding line to see impact on hardlink nad softlink
+
+mkdir dir1
+cd dir
+mkdir dir2
+cd..
+
+tar -cvf dirx.tar dir1
+combined the directories
+
+gzip dirx.tar
+zipped the compressed directory
+
+gunzip dirx.tar.gz
+unzipped
+
+chmod 777 url_checker.sh
+changed the access to run the script
 
