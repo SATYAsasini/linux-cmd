@@ -56,3 +56,48 @@ unzipped
 chmod 777 url_checker.sh
 changed the access to run the script
 
+-----GIT------
+git init
+
+git clone https://github.com/kirandevtn/task-repo
+
+git remote add origin https://github.com/kirandevtn/task-repo
+
+git checkout satya
+
+git add satya.txt
+
+git commit -m "saty's commit"
+
+git push origin satya
+
+-----CRONTAB------
+crontab -e
+
+9 13 * * * touch /home/satya/Desktop/auto.sh
+
+------Docker------
+installed docker 
+
+sudo docker --version
+
+sudo docker run hello-world
+
+sudo docker run nginx
+
+sudo docker run -d -p 8080:80 nginx
+(-d for detached mode -p to redirect 80 into locoal host 8080)
+
+tried to stop a contianer but failed
+
+->tried creating docker group and change owner to root
+->cecked permission
+
+but at last ran
+
+sudo aa-remove-unkown
+
+then 
+docker stop <nginx, container name>
+it worked
+
